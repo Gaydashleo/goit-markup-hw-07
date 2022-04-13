@@ -21,55 +21,7 @@
 /*======= OUR FEATURE END=======*/
 
 /*======= OUR JOB START =======*/
-.job {
-  padding-bottom: 94px;
-}
-.job-img {
-  display: flex;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-.job-item {
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc((100% - 90px) / 3);
-}
 
-.job-title {
-  margin-bottom: 50px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-
-  color: var(--title-text-color);
-}
-.img-job-item {
-  position: relative;
-  z-index: -1;
-}
-.under-job-item {
-  position: absolute;
-  bottom: 0;
-
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  width: 370px;
-  height: 70px;
-  background-color: var(--under-job-item-bg);
-}
-.text-under-job-item {
-  font-family: Roboto;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 11.17;
-  text-align: center;
-  color: var(--text-under-job-item);
-}
 
 /*======= OUR JOB END =======*/
 /*======= OUR TEAM START======= */
@@ -88,16 +40,19 @@
   color: var(--title-text-color);
   text-shadow: 0px 4px 4px var(--shadow-team);
 }
+
 .team {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
 }
+
 .team-img {
   flex-basis: calc((100% - 120px) / 4);
   margin-top: 30px;
   margin-left: 30px;
 }
+
 .card-team-title {
   margin-bottom: 10px;
   font-weight: 500;
@@ -116,6 +71,7 @@
 
   color: var(--primary-text-color);
 }
+
 .card-team {
   padding-left: 32px;
   padding-right: 32px;
@@ -124,12 +80,16 @@
   background-color: var(--card-team-bg);
   box-shadow: 0px 4px 4px var(--shadow-team);
 }
+
 .social-list-icon {
   fill: var(--social-list-icon-color);
 }
+
 .social-list {
   display: flex;
+ 
 }
+
 .social-list-link {
   display: flex;
   align-items: center;
@@ -139,13 +99,16 @@
   border-radius: 50%;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
+
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--button-text-color);
 }
+
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
