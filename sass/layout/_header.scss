@@ -33,11 +33,11 @@
   align-items: center;
 }
 
-.site-nav-item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-link {
+.site-nav__link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -79,14 +79,14 @@
 }
 }
 
-.mail-top-line {
+.contacts-top-line {
   display: flex;
   margin-left: auto;
   align-items: center;
   cursor: pointer;
 }
 
-.mail-top {
+.mail__top {
   display: flex;
   align-items: center;
   color: var(--primary-text-color);
@@ -105,13 +105,13 @@
   }
 }
 
-.mail-icon {
+.mail__icon {
   display: flex;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.tel-top {
+.tel__top {
   display: flex;
   align-items: center;
   margin-left: 30px;

@@ -10,7 +10,7 @@
         "../sass/components/_backdrop.scss",
         "../sass/components/_modal.scss",
         "../sass/components/_contact-form.scss",
-        "../sass/components/_contact-form-checkbox.scss",
+        "../sass/components/_contact-form__checkbox.scss",
         "../sass/components/_social-list.scss",
         "../sass/layout/_header.scss",
         "../sass/layout/_hero.scss",

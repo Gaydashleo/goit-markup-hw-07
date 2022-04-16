@@ -1,4 +1,4 @@
-.contact-form-checkbox-lable {
+.contact-form__checkbox-lable {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,13 +21,13 @@
   content: "";
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-form-checkbox:hover+&::before {
+.contact-form__checkbox:hover+&::before {
   border-color: var(--accent-color);
 }
-.contact-form-checkbox:focus+&::before {
+.contact-form__checkbox:focus+&::before {
   outline: 2px solid var(--accent-color);
 }
-.contact-form-checkbox:checked+&::before {
+.contact-form__checkbox:checked+&::before {
   background-image: url("../images/modal-check.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -40,7 +40,7 @@
   color: var(--accent-color);
 }
 
-.contact-form-submit-btn {
+.contact-form__submit-btn {
   min-width: 200px;
   margin-top: 30px;
   margin-left: auto;

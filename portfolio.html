@@ -29,31 +29,31 @@
         >
         <div class="nav-menu">
             <ul class="site-nav list">
-            <li class="site-nav-item">
-              <a class="nav-link" href="index.html">Студия</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="index.html">Студия</a>
             </li>
-            <li class="site-nav-item">
-              <a class="nav-link current" href="portfolio.html">Портфолио</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link current" href="portfolio.html">Портфолио</a>
             </li>
-            <li class="site-nav-item">
-              <a class="nav-link" href="#">Контакты</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#">Контакты</a>
             </li>
           </ul>
         </div>
-          <div class="mail-top-line">
+          <div class="contacts-top-line">
           <a
-            class="mail-top"
+            class="mail__top"
             href="mailto:info@devstudio.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg class="mail-icon" width="16" height="12">
+            <svg class="mail__icon" width="16" height="12">
               <use href="./images/sprite.svg#envelope"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a class="tel-top" href="tel:+380961111111">
-            <svg class="mail-icon" width="10" height="16">
+          <a class="tel__top" href="tel:+380961111111">
+            <svg class="mail__icon" width="10" height="16">
               <use href="./images/sprite.svg#smartphone"></use>
             </svg>
             +38 096 111 11 11</a
@@ -265,71 +265,75 @@
         </div>
       </section>
     </main>
-  <footer class="basement">
+   <!-- FOOTER START  -->
+          <footer class="basement">
           <div class="container footer-container">
-        <div class="footer-address">
+          <div class="footer-address">
           <a href="./index.html" class="basement-logo"
             ><span class="accent">Web</span>Studio</a
           >
-            <address class="basement-address">
+          <address class="basement-address">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="mail-basement"
+            <a
+              class="basement-address__mail-basement"
               href="mailto:info@example.com"
               target="_blank"
               rel="noopener noreferrer"
-              >info@devstudio.com</a>
-              <a class="tel-basement" href="tel:+380961111111" 
+              >info@devstudio.com</a
+            >
+            <a class="basement-address__tel-basement" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
-            </address>
+          </address>
           </div>
           <div class="footer-social-list">
-            <p class="footer-social-title">ПРИСОЕДИНЯЙТЕСЬ</p>
-            <ul class="social-list list">
-              <li class="social-list-item">
-                <a class="social-list-link" href="">
-                  <svg class="footer-social-list-icon" width="20" height="20">
-                    <use href="./images/sprite.svg#insta-footer"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-list-item">
-                <a class="social-list-link" href="">
-                  <svg class="footer-social-list-icon" width="20" height="20">
-                    <use href="./images/sprite.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-list-item">
-                <a class="social-list-link" href="">
-                  <svg class="footer-social-list-icon" width="20" height="20">
-                    <use href="./images/sprite.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-list-item">
-                <a class="social-list-link" href="">
-                  <svg class="footer-social-list-icon" width="20" height="20">
-                    <use href="./images/sprite.svg#linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+          <p class="footer-social-list__title">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="social-list list">
+            <li class="social-list__item">
+              <a class="social-list__link" href="">
+                <svg class="footer-social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#insta-footer"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link" href="">
+                <svg class="footer-social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link" href="">
+                <svg class="footer-social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link" href="">
+                <svg class="footer-social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
           </div>
-           <form class="footer-email-input">
-            <b class="footer-email-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-            <div class="footer-email">
-            <label class="footer-email-form-field"></label>
-            <input name="user_email_footer" class="footer-email-form-input"type="text" placeholder="Email" required>
+          <form class="footer-contact-form">
+            <b class="footer-contact-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+            <div class="footer-contact-form__email">
+            <label class="footer-contact-form__email-field"></label>
+            <input name="user_email_footer" class="footer-contact-form__email-input"type="text" placeholder="Email" required>
             </form>
             <button type="submit" class="footer-submit-btn">Подписаться
-            <svg class="footer-btn-icon" width="24" height="24">
+            <svg class="footer-submit-btn__icon" width="24" height="24">
               <use href="./images/sprite.svg#send"></use>
             </svg>
           </button></div>
-               </div>
+        </div>
       </div>
     </footer>
+    <!-- FOOTER END   -->
     <script src="./modal.js"></script>
   </body>
 </html>

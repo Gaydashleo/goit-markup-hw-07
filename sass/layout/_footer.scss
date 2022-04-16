@@ -34,7 +34,7 @@
   color: var(--footer-address-color);
 }
 
-.mail-basement {
+.basement-address__mail-basement {
   display: block;
   margin-top: 9px;
   font-family: Roboto;
@@ -56,7 +56,7 @@
 }
 
 
-.tel-basement {
+.basement-address__tel-basement {
   display: block;
   margin-top: 9px;
   font-family: Roboto;
@@ -78,7 +78,7 @@
 
 
 
-.footer-social-title {
+.footer-social-list__title {
   margin-bottom: 20px;
   font-family: Roboto;
   font-style: normal;
@@ -86,18 +86,18 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--footer-social-title-color);
+  color: var(--footer-social-list__title-color);
 }
 
 .footer-social-list {
   margin-left: 70px;
 }
 
-.footer-social-list-icon {
-  fill: var(--footer-social-list-icon-color);
+.footer-social-list__icon {
+  fill: var(--footer-social-list__icon-color);
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,8 +108,8 @@
   border-radius: 50%;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover .social-list-icon,
-  &:focus .social-list-icon {
+  &:hover .social-list__icon,
+  &:focus .social-list__icon {
   fill: var(--button-text-color);
   }
 
@@ -119,26 +119,26 @@
 }
 }
 
-.footer-email {
+.footer-contact-form__email {
   display: flex;
   align-items: baseline;
 }
 
-.footer-email-input {
+.footer-contact-form {
   margin-left: 93px;
 }
 
-.footer-email-title {
+.footer-contact-form__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--footer-social-title-color);
+  color: var(--footer-social-list__title-color);
 }
 
-.footer-email-form-input {
+.footer-contact-form__email-input {
   display: block;
   align-items: center;
   padding-left: 16px;
@@ -186,6 +186,6 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-btn-icon {
+.footer-submit-btn__icon {
   margin-left: 10px;
 }

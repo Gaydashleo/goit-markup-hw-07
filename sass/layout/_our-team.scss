@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
   font-style: normal;
   font-weight: 700;
@@ -20,13 +20,13 @@
   margin-left: -30px;
 }
 
-.team-img {
+.team__img {
   flex-basis: calc((100% - 120px) / 4);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.card-team-title {
+.card-team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -36,7 +36,7 @@
   color: var(--title-text-color);
 }
 
-.under-card-team-title {
+.card-team__title-under {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;

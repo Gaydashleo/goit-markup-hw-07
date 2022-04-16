@@ -25,12 +25,12 @@
   color: var(--title-text-color);
 }
 
-.img-job-item {
+.job-item__img {
   position: relative;
   z-index: -1;
 }
 
-.under-job-item {
+.job-item__under {
   position: absolute;
   bottom: 0;
 
@@ -40,15 +40,15 @@
   align-items: center;
   width: 370px;
   height: 70px;
-  background-color: var(--under-job-item-bg);
+  background-color: var(--job-item__under-bg);
 }
 
-.text-under-job-item {
+.job-item__under-text {
   font-family: Roboto;
   font-weight: bold;
   font-style: normal;
   font-size: 14px;
   line-height: 11.17;
   text-align: center;
-  color: var(--text-under-job-item);
+  color: var(--job-item__under-text);
 }
