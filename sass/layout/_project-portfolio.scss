@@ -17,12 +17,12 @@
   border-left: 1px solid var(--portfolio-project-border-color);
   border-right: 1px solid var(--portfolio-project-border-color);
   cursor: pointer;
-}
 
-.card-img-project:hover,
-.card-img-project:focus {
+  &:hover,
+  &:focus {
   box-shadow: 0px 4px 4px 0 var(--shadow-team);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 .card-project-title {
@@ -50,6 +50,10 @@
 .project-thumb {
   position: relative;
   overflow: hidden;
+
+  &:hover .project-description {
+  opacity: 1;
+}
 }
 
 .portfolio-description {
@@ -74,6 +78,3 @@
   color: var(--portfolio-text-description);
 }
 
-.project-thumb:hover .project-description {
-  opacity: 1;
-}

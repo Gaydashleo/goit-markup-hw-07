@@ -31,10 +31,10 @@
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
-}
 
-.description:not(:last-child) {
+  &:not(:last-child) {
   margin-right: 30px;
+  }
 }
 
 .above-feature-title {

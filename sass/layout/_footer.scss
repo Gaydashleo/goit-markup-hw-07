@@ -47,12 +47,14 @@
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.mail-basement:hover,
-.mail-basement:focus {
+  &:hover,
+  &:focus {
   color: var(--accent-color);
 }
+
+}
+
 
 .tel-basement {
   display: block;
@@ -67,12 +69,14 @@
 
   color: var(--footer-contact-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.tel-basement:hover,
-.tel-basement:focus {
+  &:hover,
+  &:focus {
   color: var(--accent-color);
 }
+}
+
+
 
 .footer-social-title {
   margin-bottom: 20px;
@@ -103,16 +107,16 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+  &:hover .social-list-icon,
+  &:focus .social-list-icon {
   fill: var(--button-text-color);
-}
+  }
 
-.social-list-link:hover,
-.social-list-link:focus {
+  &:hover,
+  &:focus {
   background-color: var(--accent-color);
+}
 }
 
 .footer-email {
@@ -153,12 +157,13 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
 
-.footer-email-form-input:hover,
-.footer-email-form-input:focus {
+  &:hover,
+  &:focus {
   border: 1px solid var(--accent-color);
 }
+}
+
 
 .footer-submit-btn {
   display: flex;

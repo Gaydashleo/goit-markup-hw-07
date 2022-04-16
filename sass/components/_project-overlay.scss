@@ -8,15 +8,14 @@
   opacity: 0;
   transform: translateY(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.card-img-project:hover .project-overlay {
+  .card-img-project:hover & {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.project-overlay:hover {
+  &:hover {
   opacity: 1;
+}
 }
 
 .card-body .project-description {
