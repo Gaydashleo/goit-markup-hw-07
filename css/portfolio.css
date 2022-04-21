@@ -21,7 +21,7 @@
   --customers-color-icon: #afb1b8;
   --job-item__under-text: #ffffff;
   --job-item__under-bg: #2f303a80;
-  --portfolio-text-description: #ffffff;
+  --portfolio-text-card-feature__description: #ffffff;
   --modal-background-color: #ffffff;
   --footer-social-list__title-color: #ffffff;
   --footer-social-list__icon-color: #ffffff;
@@ -113,7 +113,7 @@ p {
   opacity: 1;
 }
 
-.card-body .project-description {
+.card-body .project-card-feature__description {
   opacity: 1;
 }
 
@@ -339,15 +339,15 @@ button {
   overflow: hidden;
 }
 
-.project-thumb:hover .project-description {
+.project-thumb:hover .project-card-feature__description {
   opacity: 1;
 }
 
-.portfolio-description {
+.portfolio-card-feature__description {
   display: flex;
 }
 
-.project-description {
+.project-card-feature__description {
   display: flex;
   width: 322px;
   height: 168px;
@@ -362,7 +362,7 @@ button {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
-  color: var(--portfolio-text-description);
+  color: var(--portfolio-text-card-feature__description);
 }
 
 .basement {

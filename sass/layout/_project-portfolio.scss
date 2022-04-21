@@ -51,16 +51,16 @@
   position: relative;
   overflow: hidden;
 
-  &:hover .project-description {
+  &:hover .project-card-feature__description {
   opacity: 1;
 }
 }
 
-.portfolio-description {
+.portfolio-card-feature__description {
   display: flex;
 }
 
-.project-description {
+.project-card-feature__description {
   display: flex;
   width: 322px;
   height: 168px;
@@ -75,6 +75,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
-  color: var(--portfolio-text-description);
+  color: var(--portfolio-text-card-feature__description);
 }
 

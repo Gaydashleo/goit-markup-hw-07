@@ -21,7 +21,7 @@
   --customers-color-icon: #afb1b8;
   --job-item__under-text: #ffffff;
   --job-item__under-bg: #2f303a80;
-  --portfolio-text-description: #ffffff;
+  --portfolio-text-card-feature__description: #ffffff;
   --modal-background-color: #ffffff;
   --footer-social-list__title-color: #ffffff;
   --footer-social-list__icon-color: #ffffff;
@@ -527,13 +527,13 @@ p {
   color: var(--title-text-color);
 }
 
-.description {
+.card-feature__description {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.description:not(:last-child) {
+.card-feature__description:not(:last-child) {
   margin-right: 30px;
 }
 
